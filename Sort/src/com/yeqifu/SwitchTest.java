@@ -1,7 +1,6 @@
 package com.yeqifu;
 
 import java.lang.reflect.Constructor;
-import java.lang.reflect.InvocationTargetException;
 
 /**
  * @Author: 落亦-
