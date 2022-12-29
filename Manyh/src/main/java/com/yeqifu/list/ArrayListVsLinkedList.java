@@ -24,8 +24,8 @@ public class ArrayListVsLinkedList {
             List<Integer> list1 = Arrays.stream(array).boxed().collect(Collectors.toList());
             LinkedList<Integer> list2 = new LinkedList<>(list1);
 
-            //randomAccess(list1, list2, n / 2);
-            addFirst(list1,list2);
+            randomAccess(list1, list2, n / 2);
+            //addFirst(list1,list2);
             //addMiddle(list1, list2, n / 2);
             //addLast(list1,list2);
 //            arrayListSize((ArrayList<Integer>) list1);
