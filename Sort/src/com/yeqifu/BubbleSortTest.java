@@ -7,8 +7,6 @@ package com.yeqifu;
  * @Date: 2022/1/29 19:56
  */
 public class BubbleSortTest {
-    int b;
-
     public static void main(String[] args) {
         int[] nums = new int[]{5, 7, 2, 4};
         int a;

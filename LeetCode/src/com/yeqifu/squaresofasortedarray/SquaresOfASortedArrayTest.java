@@ -1,5 +1,8 @@
 package com.yeqifu.squaresofasortedarray;
 
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * @author: yeqifu
  * @date: 2023/1/1 23:52
@@ -7,6 +10,7 @@ package com.yeqifu.squaresofasortedarray;
 public class SquaresOfASortedArrayTest {
 
     public static void main(String[] args) {
+        Map<Integer, Integer> map = new HashMap<>(16);
         int[] nums = new int[]{-4,-1,0,3,10};
         int[] result = sortedSquares(nums);
         for (int i : result) {
